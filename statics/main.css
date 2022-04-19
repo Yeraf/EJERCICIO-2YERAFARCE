@@ -1,0 +1,46 @@
+* {
+    margin: 1px, 0, 0, 0;
+    padding: 0%;
+}
+
+:root {
+    --color-green: #4cd137;
+    --color-red: #d63031;
+    --color-blue: #3742fa;
+    --color-hover: #be2edd;
+}
+
+html {
+    background: #dfe6e9;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold {
+    font-size: 50px;
+}
+
+.green {
+    color: var(--color-green);
+    text-decoration: none;
+}
+
+.red {
+    color: var(--color-red);
+}
+
+.blue {
+    color: var(--color-blue);
+}
+
+.hover {
+    text-decoration: underline overline;
+}
+
+.hover:hover {
+    cursor: pointer;
+    background: var(--color-hover);
+}
